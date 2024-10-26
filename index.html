@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Gallery In HTML, CSS With LightGallery</title>
+
+    <!-- custom style css file cdn link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- light gallery js css file cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+</head>
+<body>
+    
+    <section class="gallery">
+        <div class="box-container">
+            <a href="./images/1.jpg">
+                <img src="./images/1.jpg" alt="">
+            </a>
+            <a href="./images/2.jpg">
+                <img src="./images/2.jpg" alt="">
+            </a>
+            <a href="./images/3.jpg">
+                <img src="./images/3.jpg" alt="">
+            </a>
+            <a href="./images/4.jpg">
+                <img src="./images/4.jpg" alt="">
+            </a>
+            <a href="./images/5.jpg">
+                <img src="./images/5.jpg" alt="">
+            </a>
+            <a href="./images/6.jpg">
+                <img src="./images/6.jpg" alt="">
+            </a>
+            <a href="./images/7.jpg">
+                <img src="./images/7.jpg" alt="">
+            </a>
+            <a href="./images/8.jpg">
+                <img src="./images/8.jpg" alt="">
+            </a>
+            <a href="./images/9.jpg">
+                <img src="./images/9.jpg" alt="">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- light gallery js file cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .box-container')); 
+    </script>
+
+</body>
+</html>
